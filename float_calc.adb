@@ -1,8 +1,8 @@
 with Ada.Text_IO, Ada.Float_Text_IO, Unbound_Stack;
 use Ada.Text_IO, Ada.Float_Text_IO;
 
--- procedure Float_Calc_Hedrick
-procedure Float_Calc_Hedrick is
+-- procedure Float_Calc
+procedure Float_Calc is
 
 	package Unbound_Character_Stack is new Unbound_Stack(Character);
 	package Unbound_Float_Stack is new Unbound_Stack(Float);
@@ -186,4 +186,4 @@ begin -- Calculator
 			when others => Put_Line("ERROR");
 		end;
 	end loop;
-end Float_Calc_Hedrick;
+end Float_Calc;
